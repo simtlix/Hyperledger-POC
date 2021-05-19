@@ -1,0 +1,73 @@
+[
+    {
+        "transactionName": "employeesExists",
+        "transactionLabel": "A test employeesExists transaction",
+        "arguments": [
+            "001",
+            "name",
+            "surname",
+            "00000001",
+            "dd-mm-aaaa"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "createEmployees",
+        "transactionLabel": "A test createEmployees transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {
+            "privateValue": "some value"
+        }
+    },
+    {
+        "transactionName": "readEmployees",
+        "transactionLabel": "A test readEmployees transaction",
+        "arguments": [
+            "001",
+            "name",
+            "surname",
+            "00000001",
+            "dd-mm-aaaa"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "updateEmployees",
+        "transactionLabel": "A test updateEmployees transaction",
+        "arguments": [
+            "001",
+            "name",
+            "surname",
+            "00000001",
+            "dd-mm-aaaa"
+        ],
+        "transientData": {
+            "privateValue": "some other value"
+        }
+    },
+    {
+        "transactionName": "deleteEmployees",
+        "transactionLabel": "A test deleteEmployees transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "verifyEmployees",
+        "transactionLabel": "A test verifyEmployees transaction",
+        "arguments":[
+            "Org1MSP",
+            "001",
+            {
+                "name": "some other value",
+                "surname":"some other value",
+                "dni":"00000001",
+                "hiringDate":"dd-mm-aaaa"
+            }
+        ],
+        "transientData": {}
+    }
+]
